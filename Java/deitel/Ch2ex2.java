@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ch2ex2 {
+public class Ch2ex2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
