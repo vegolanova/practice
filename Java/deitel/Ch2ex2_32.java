@@ -5,6 +5,7 @@ public class Ch2ex2_32 {
         Scanner input = new Scanner(System.in);
         int positiveCounter = 0;
         int negativeCounter = 0;
+        int zeroCounter = 0;
         int counter = 1;
 
         while (counter <= 5) {
@@ -12,12 +13,14 @@ public class Ch2ex2_32 {
             int num = input.nextInt();
             if (num < 0) {
                 negativeCounter++;
-            } else {
+            } else if (num > 0) {
                 positiveCounter++;
+            } else {
+                zeroCounter++;
             }
             counter++;
         }
-        System.out.printf("Total positive integers: %d%n Total negative integers: %d%n",
-                positiveCounter, negativeCounter);
+        System.out.printf("Total positive integers: %d%nTotal negative integers: %d%n" +
+                        "Total zeros: %d", positiveCounter, negativeCounter, zeroCounter);
     }
 }
