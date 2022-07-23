@@ -3,7 +3,6 @@ public class Ch3ex3_33 {
         int counter = 0;
         int counter1 = 0;
         int counter2 = 0;
-        int qty = 8;
 
         while (counter < 4) {
 
