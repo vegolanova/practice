@@ -14,5 +14,21 @@ public class Ch3ex3_30 {
             }
             System.out.print("\n");
         }
+        
+        
+        // same but using while statement
+        while (i < base) {
+        
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+
+            System.out.print("\n");
+            
+            j = 0;
+            i++;
+        }
+        
     }
 }
