@@ -17,8 +17,6 @@ public class Ch4ex4_20 {
                 add += 2;
             }
 
-            //(4/(2*n - 1))
-
             if (i % 2 == 0) {
                 pi += (4 / (3 + add));
                 add += 2;
