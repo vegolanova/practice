@@ -12,7 +12,7 @@
 **********     *     *     **********
 
 */
-public class Ch4ex4_22 {
+public class Ch4ex4_22_v1 {
     public static void main(String[] args) {
         for (int n = 0; n < 10; n++) {       //the height of full output is 10
 
