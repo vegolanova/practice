@@ -14,8 +14,6 @@
 */
 public class Ch4ex4_22 {
     public static void main(String[] args) {
-        int counter1 = 0, counter2 = 10;
-
         for (int n = 0; n < 10; n++) {       //the height of full output is 10
 
             //triangle 1
