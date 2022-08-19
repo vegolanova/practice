@@ -8,9 +8,7 @@ public class Ch5ex5_28 {
 
         if (temperature >= 20 && temperature <= 30) {
             return reply20to30;
-        }
-
-        if (temperature >= 10 && temperature <= 40) {
+        } else if (temperature >= 10 && temperature <= 40) {
             return reply10to40;
         } else {
             return replyElse;
@@ -25,4 +23,4 @@ public class Ch5ex5_28 {
 
         System.out.printf("%s", sportsRecommender(temperature));
     }
-}
+
