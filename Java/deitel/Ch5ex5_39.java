@@ -6,6 +6,7 @@ public class Ch5ex5_39 {
 
     private static ProblemTypes typeChoice() {
         Scanner input = new Scanner(System.in);
+        ProblemTypes problemTypeChoice;
         System.out.print("""
                                 
                 Choose a type of the problems.
@@ -17,20 +18,30 @@ public class Ch5ex5_39 {
                 YOUR CHOICE:\s""");
         int userChoice = input.nextInt();
 
-        return switch (userChoice) {
-            case 1 -> ProblemTypes.ADD;
-            case 2 -> ProblemTypes.SUB;
-            case 3 -> ProblemTypes.MUL;
-            case 4 -> ProblemTypes.DIV;
-            case 5 -> ProblemTypes.MIX;
-            default -> ProblemTypes.ERROR;
-        };
+
+        if (userChoice == 1) {
+            problemTypeChoice = ProblemTypes.ADD;
+        } else if (userChoice == 2) {
+            problemTypeChoice = ProblemTypes.SUB;
+        } else if (userChoice == 3) {
+            problemTypeChoice = ProblemTypes.MUL;
+        } else if (userChoice == 4) {
+            problemTypeChoice = ProblemTypes.DIV;
+        } else if (userChoice == 5) {
+            problemTypeChoice = ProblemTypes.MIX;
+        } else {
+            System.out.println("Wrong input. Try again.\n");
+            problemTypeChoice = typeChoice();
+        }
+
+        return problemTypeChoice;
     }
 
     enum DifficultyLevels {L1, L2, ERROR}
 
     private static DifficultyLevels levelChoice() {
         Scanner input = new Scanner(System.in);
+        DifficultyLevels difficultyLvlChoice;
         System.out.print("""
                                 
                 Choose a difficulty level.
@@ -39,11 +50,15 @@ public class Ch5ex5_39 {
                 YOUR CHOICE:\s""");
         int userChoice = input.nextInt();
 
-        return switch (userChoice) {
-            case 1 -> DifficultyLevels.L1;
-            case 2 -> DifficultyLevels.L2;
-            default -> DifficultyLevels.ERROR;
-        };
+        if (userChoice == 1) {
+            difficultyLvlChoice = DifficultyLevels.L1;
+        } else if (userChoice == 2) {
+            difficultyLvlChoice = DifficultyLevels.L2;
+        } else {
+            System.out.println("Wrong input. Try again.\n");
+            difficultyLvlChoice = levelChoice();
+        }
+        return difficultyLvlChoice;
     }
 
     private static int questionGenerator1(ProblemTypes type) {
@@ -125,15 +140,6 @@ public class Ch5ex5_39 {
         int answer;
         ProblemTypes typeChoice = typeChoice();
 
-        while (typeChoice == ProblemTypes.ERROR) {
-            System.out.println("Wrong input. Try again.\n");
-            typeChoice = typeChoice();
-        }
-
-        while (difficultyLvl == DifficultyLevels.ERROR) {
-            difficultyLvl = levelChoice();
-        }
-
         while (attemptsCounter < 10) {
 
             if (difficultyLvl == DifficultyLevels.L1) {
@@ -142,7 +148,7 @@ public class Ch5ex5_39 {
                 answer = questionGenerator2(typeChoice);
             }
 
-            System.out.println("Your answer: ");
+            System.out.print("Your answer: ");
             int userAnswer = input.nextInt();
             SecureRandom random = new SecureRandom();
             int responseID = random.nextInt(4);
