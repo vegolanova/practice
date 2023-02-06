@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_19" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_20" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_21" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_22" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_23" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_24" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_30" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_31" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_33" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_34" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_36" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_37" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_38a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_38b" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_38c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_39_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_39_2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ch3ex3_40" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

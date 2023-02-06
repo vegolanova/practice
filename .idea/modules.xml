@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/deitel/1 - Intro/1 - Intro.iml" filepath="$PROJECT_DIR$/Java/deitel/1 - Intro/1 - Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/deitel/3 - Control Statements p.1/3 - Control Statements p.1.iml" filepath="$PROJECT_DIR$/Java/deitel/3 - Control Statements p.1/3 - Control Statements p.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/deitel/4 - Control Statements p.2/4 - Control Statements p.2.iml" filepath="$PROJECT_DIR$/Java/deitel/4 - Control Statements p.2/4 - Control Statements p.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/deitel/5 - Methods/5 - Methods.iml" filepath="$PROJECT_DIR$/Java/deitel/5 - Methods/5 - Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/deitel/6 - Arrays and ArrayLists/6 - Arrays and ArrayLists.iml" filepath="$PROJECT_DIR$/Java/deitel/6 - Arrays and ArrayLists/6 - Arrays and ArrayLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/practice.iml" filepath="$PROJECT_DIR$/.idea/practice.iml" />
+    </modules>
+  </component>
+</project>
