@@ -10,21 +10,20 @@ public class Ch6ex6_16 {
 
         System.out.print("Input an integer or 'x' to stop: ");
 
-        while(input.hasNextInt()) {
+        while (input.hasNextInt()) {
             integers.add(input.nextInt());
             System.out.print("Input an integer or 'x' to stop: ");
         }
 
+        if (integers.size() == 0) {
+            System.out.println("No values!");
+        }
 
-        try {
-            for (Integer integer : integers) {
-                if (integer < 0) {
-                    integer *= -1;
-                }
-                System.out.println(integer);
+        for (Integer integer : integers) {
+            if (integer < 0) {
+                integer *= -1;
             }
-        } catch (ArithmeticException e) {
-            System.out.println("Empty array!");
+            System.out.println(integer);
         }
 
     }
